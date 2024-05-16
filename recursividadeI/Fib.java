@@ -8,7 +8,7 @@ public class Fib {
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n = Integer.valueOf(scanner.nextLine());
+        int n = Integer.valueOf(scanner.nextLine()) - 1;
         System.out.println(fib(n));
         scanner.close();
     }
