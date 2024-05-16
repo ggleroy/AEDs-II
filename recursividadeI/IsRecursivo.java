@@ -86,5 +86,6 @@ public class IsRecursivo {
             }
             printResults(str);
         }
+        scanner.close();
     }
 }

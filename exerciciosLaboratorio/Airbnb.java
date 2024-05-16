@@ -28,6 +28,8 @@ public class Airbnb {
                     break;
                 }
             }
+            reader.close();
         }
+        scanner.close();
     }
 }
